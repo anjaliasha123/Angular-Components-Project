@@ -1,0 +1,9 @@
+<div class="ui list">
+    <div class="item" *ngFor="let item of itemsList">
+      <img class="ui avatar image" [src]="item.image">
+      <div class="content">
+        <a class="header">{{ item.title }}</a>
+        <div class="description">{{ item.description}}.</div>
+      </div>
+    </div>
+  </div>
